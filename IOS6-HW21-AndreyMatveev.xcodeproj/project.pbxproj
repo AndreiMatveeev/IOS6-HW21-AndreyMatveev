@@ -56,15 +56,55 @@
 		B24445732884819E0083888E /* IOS6-HW21-AndreyMatveev */ = {
 			isa = PBXGroup;
 			children = (
-				B24445742884819E0083888E /* AppDelegate.swift */,
-				B24445762884819E0083888E /* SceneDelegate.swift */,
-				B24445782884819E0083888E /* ViewController.swift */,
-				B244457A2884819E0083888E /* Main.storyboard */,
-				B244457D288481A10083888E /* Assets.xcassets */,
-				B244457F288481A10083888E /* LaunchScreen.storyboard */,
-				B2444582288481A10083888E /* Info.plist */,
+				B2444588288482D00083888E /* Sources */,
+				B2444589288482E30083888E /* Resources */,
 			);
 			path = "IOS6-HW21-AndreyMatveev";
+			sourceTree = "<group>";
+		};
+		B2444588288482D00083888E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B244458A288483350083888E /* Controller */,
+				B244458C2884836E0083888E /* Storyboard */,
+				B244458B288483420083888E /* Aplication */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B2444589288482E30083888E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2444582288481A10083888E /* Info.plist */,
+				B244457D288481A10083888E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B244458A288483350083888E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B24445782884819E0083888E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B244458B288483420083888E /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				B24445742884819E0083888E /* AppDelegate.swift */,
+				B24445762884819E0083888E /* SceneDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		B244458C2884836E0083888E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B244457F288481A10083888E /* LaunchScreen.storyboard */,
+				B244457A2884819E0083888E /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K2A4TFL764;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW21-AndreyMatveev/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW21-AndreyMatveev/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K2A4TFL764;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW21-AndreyMatveev/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW21-AndreyMatveev/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
