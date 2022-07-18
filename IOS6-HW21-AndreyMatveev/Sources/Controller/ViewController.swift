@@ -129,6 +129,8 @@ func generateBruteForce(_ string: String, fromArray array: [String]) -> String {
     return str
 }
 
+// MARK: - Extension
+
 extension String {
     var digits:      String { return "0123456789" }
     var lowercase:   String { return "abcdefghijklmnopqrstuvwxyz" }
